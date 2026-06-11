@@ -6,10 +6,12 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    background: #9dd89b;
+    background: #b8cdb8;
 }
 
 p{ 
-    color: pink;
+    color: black;
+    background-color: cadetblue;
+    padding: 20px;
 }
 
