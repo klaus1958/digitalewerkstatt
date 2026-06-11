@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Technik on meine fast erste Hugoseite</title>
+		<link>http://localhost:1313/technik/</link>
+		<description>Recent content in Technik on meine fast erste Hugoseite</description>
+		<generator>Hugo</generator>
+		<language>de-de</language>
+		
+		
+		
+		
+			<lastBuildDate></lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/technik/index.xml" rel="self" type="application/rss+xml" />
+	</channel>
+</rss>
