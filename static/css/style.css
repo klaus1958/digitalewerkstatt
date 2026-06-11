@@ -1,17 +1,51 @@
+/* Reset */
+
 *{
     margin: 0;
     padding: 20;
     box-sizing: border-box;     
 }   
 
-body{
-    font-family: 'Poppins', sans-serif;
-    background: #b8cdb8;
+/* Typografie */
+
+body {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+
+    font-family: Georgia, serif;
+    line-height: 1.7;
+
+    color: #222;
+    background: #fafaf8;
 }
 
-p{ 
-    color: black;
-    background-color: cadetblue;
-    padding: 50px 40px 20px 40px;
+/* Links */
+
+a {
+
+    color: #355c7d;
+    text-decoration: none;
 }
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Bilder */
+
+img {
+    max-width: 100%;
+    Height:auto;
+}
+
+/* Trennlinien */
+
+hr {
+    margin: 2rem 0;
+    border: none;
+    border-top: 1px solid #ddd;
+}
+
+
 
