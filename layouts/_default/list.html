@@ -1,6 +1,7 @@
 {{ define "main" }}
-    
+    list
         <h1>{{ .Title }}</h1>
+
         <ul>
             {{ range .Pages }}
                 <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>

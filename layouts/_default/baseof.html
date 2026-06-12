@@ -8,17 +8,19 @@
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
+
     <nav>
             <a href="/">Home</a>
             {{ range .Site.Sections }}
                 <a href="{{ .RelPermalink }}">{{ .Title }}</a>
             {{ end }}
-
-            <a href="/a/">A</a>
-             <a href="/b/">B</a>
+       
     </nav>
-<main>
+
     
+
+<main>
+    baseof
     {{ block "main" .  }}
     {{ end }}
 </main> 
