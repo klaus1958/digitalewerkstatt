@@ -2,7 +2,7 @@
 
 *{
     margin: 0;
-    padding: 10px;
+    padding: 0;
     box-sizing: border-box;     
 }   
 
@@ -44,7 +44,7 @@ a:hover {
 
 img {
     max-width: 100%;
-    Height:auto;
+    height: auto;
 }
 
 /* Trennlinien */
@@ -52,7 +52,7 @@ img {
 hr {
     margin: 2rem 0;
     border: none;
-    border-top: px solid #ddd;
+    border-top: 1px solid #ddd;
 }
 
 
