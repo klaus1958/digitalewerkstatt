@@ -10,8 +10,22 @@
 		
 		
 		
-			<lastBuildDate></lastBuildDate>
+			<lastBuildDate>Thu, 11 Jun 2026 20:05:42 +0200</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/musik/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>A</title>
+				<link>http://localhost:1313/musik/a/</link>
+				<pubDate>Thu, 11 Jun 2026 20:04:56 +0200</pubDate>
+				<guid>http://localhost:1313/musik/a/</guid>
+				<description>&lt;p&gt;das ist eine A-markdown-Datei im Musik-Verzeichnis&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>B</title>
+				<link>http://localhost:1313/musik/b/</link>
+				<pubDate>Thu, 11 Jun 2026 20:05:42 +0200</pubDate>
+				<guid>http://localhost:1313/musik/b/</guid>
+				<description>&lt;p&gt;das ist eine B-markdown-Datei im Musik-Verzeichnis&lt;/p&gt;</description>
+			</item>
 	</channel>
 </rss>

@@ -2,9 +2,10 @@
 
 *{
     margin: 0;
-    padding: 20;
+    padding: 10px;
     box-sizing: border-box;     
 }   
+
 
 /* Typografie */
 
@@ -20,6 +21,12 @@ body {
     color: #222;
     background: #fafaf8;
 }
+/*
+nav {
+    border: 3px solid red;
+    background: yellow;
+}
+*/
 
 /* Links */
 
@@ -45,7 +52,7 @@ img {
 hr {
     margin: 2rem 0;
     border: none;
-    border-top: 1px solid #ddd;
+    border-top: px solid #ddd;
 }
 
 
