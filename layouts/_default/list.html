@@ -2,6 +2,10 @@
    
         <h1>{{ .Title }}</h1>
 
+        {{ .Content }}
+           
+        <hr>
+
         <ul>
             {{ range .Pages.ByWeight }}
                 <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
