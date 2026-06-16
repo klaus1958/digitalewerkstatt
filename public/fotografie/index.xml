@@ -10,8 +10,15 @@
 		
 		
 		
-			<lastBuildDate></lastBuildDate>
+			<lastBuildDate>Tue, 16 Jun 2026 12:05:28 +0200</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/fotografie/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Excire</title>
+				<link>http://localhost:1313/fotografie/excire/</link>
+				<pubDate>Tue, 16 Jun 2026 12:05:28 +0200</pubDate>
+				<guid>http://localhost:1313/fotografie/excire/</guid>
+				<description>&lt;ul&gt;&#xA;&lt;li&gt;lerne excire wirklich komplett anzuwenden mit version 2027 &lt;strong&gt;Rabatcode&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;es gibt viele Tutorials&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+			</item>
 	</channel>
 </rss>
