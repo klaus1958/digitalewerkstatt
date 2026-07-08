@@ -5,11 +5,15 @@
         {{ .Content }}
            
         <hr>
+        
+            <ul class="list"> 
+               
+                {{ range .Pages.ByWeight }}
+                    <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+                {{ end }}
+                
+            </ul>
+           
+       
 
-        <ul>
-            {{ range .Pages.ByWeight }}
-                <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-            {{ end }}
-        </ul>
-    
 {{ end }}
