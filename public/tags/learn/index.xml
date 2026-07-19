@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Learn on meine fast erste Hugoseite</title>
+		<title>Learn on Meine digitale Werkstatt</title>
 		<link>http://localhost:1313/tags/learn/</link>
-		<description>Recent content in Learn on meine fast erste Hugoseite</description>
+		<description>Recent content in Learn on Meine digitale Werkstatt</description>
 		<generator>Hugo</generator>
 		<language>de-de</language>
 		
@@ -16,7 +16,7 @@
 				<link>http://localhost:1313/technik/zweiter_text/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/technik/zweiter_text/</guid>
-				<description>&lt;ul&gt;&#xA;&lt;li&gt;Das gilt es zu beachten&#xA;&lt;ul&gt;&#xA;&lt;li&gt;die versionsverwaltung findet mit github statt&lt;/li&gt;&#xA;&lt;li&gt;die Dateien liegen aber in der Nexcloud\Klaus\Hugoprojekt\digitalewerkstatt&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;das-möchte-ich-lernen&#34;&gt;Das möchte ich lernen&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Javascript-Kurs Brad Traversy&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+				<description>&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Das gilt es zu beachten&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;die Versionsverwaltung findet mit github statt&lt;/li&gt;&#xA;&lt;li&gt;die Dateien liegen aber in der Nexcloud\Klaus\Hugoprojekt\digitalewerkstatt&#xA;und werden damit synchronisiert.&lt;/li&gt;&#xA;&lt;li&gt;evtl. in Github den Pfad ändern oder syncen nur mit Github ohne nextcloud&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Projekt ist jetzt nur noch bei git ( kein nextcloud) Zusätzlich ,gitignore angelegt damit public und resources nicht synchronisiert werden&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;das-möchte-ich-lernen&#34;&gt;Das möchte ich lernen&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Javascript-Kurs Brad Traversy&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
 			</item>
 	</channel>
 </rss>

@@ -10,6 +10,8 @@ categories: ['Hugo', 'Javascript lernen']
     und werden damit synchronisiert.
     - evtl. in Github den Pfad ändern oder syncen nur mit Github ohne nextcloud
 
+- Projekt ist jetzt nur noch bei git ( kein nextcloud) Zusätzlich ,gitignore angelegt damit public und resources nicht synchronisiert werden
+
 
 # Das möchte ich lernen
 
