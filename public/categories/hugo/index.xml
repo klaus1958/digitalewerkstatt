@@ -23,7 +23,7 @@
 				<link>http://localhost:1313/technik/zweiter_text/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/technik/zweiter_text/</guid>
-				<description>&lt;h1 id=&#34;javascript-kurs-brad-traversy&#34;&gt;Javascript-Kurs Brad Traversy&lt;/h1&gt;</description>
+				<description>&lt;ul&gt;&#xA;&lt;li&gt;Das gilt es zu beachten&#xA;&lt;ul&gt;&#xA;&lt;li&gt;die versionsverwaltung findet mit github statt&lt;/li&gt;&#xA;&lt;li&gt;die Dateien liegen aber in der Nexcloud\Klaus\Hugoprojekt\digitalewerkstatt&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;das-möchte-ich-lernen&#34;&gt;Das möchte ich lernen&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Javascript-Kurs Brad Traversy&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
 			</item>
 	</channel>
 </rss>
