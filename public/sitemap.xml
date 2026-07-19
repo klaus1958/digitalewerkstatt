@@ -17,6 +17,8 @@
   </url><url>
     <loc>http://localhost:1313/technik/erster_text/</loc>
   </url><url>
+    <loc>http://localhost:1313/technik/zweiter_text/</loc>
+  </url><url>
     <loc>http://localhost:1313/fotografie/excire/</loc>
     <lastmod>2026-06-16T12:05:28+02:00</lastmod>
   </url><url>
@@ -46,6 +48,10 @@
     <loc>http://localhost:1313/tags/howto/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/hugo/</loc>
+  </url><url>
+    <loc>http://localhost:1313/categories/javascript-lernen/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/learn/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
   </url>
