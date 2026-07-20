@@ -106,6 +106,8 @@ Möchtest du danach direkt sehen, wie du das Projekt jetzt fehlerfrei auf deinen
 [2] [https://docs.github.com](https://docs.github.com/de/desktop/working-with-your-remote-repository-on-github-or-github-enterprise/viewing-a-pull-request-in-github-desktop)
 
 jetzt sind alle verzeichnisse synchron? 20.7.26 14:30
+noch so ein eintrag
+
 
 # Das möchte ich lernen
 
