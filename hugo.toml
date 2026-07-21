@@ -1,0 +1,3 @@
+baseURL = 'https://example.org/'
+locale = 'de-de'
+title = 'Meine Digitalwerkstatt'

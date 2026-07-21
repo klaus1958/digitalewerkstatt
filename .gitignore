@@ -1,0 +1,10 @@
+#Hugo generiert
+
+public/
+resources/_gen/
+.hugo_build.lock
+
+#vscode
+.vscode/
+
+
