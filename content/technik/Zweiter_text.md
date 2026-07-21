@@ -12,6 +12,9 @@ categories: ['Hugo', 'Javascript lernen']
 
 - Projekt ist jetzt nur noch bei git ( kein nextcloud) Zusätzlich ,gitignore angelegt damit public und resources nicht synchronisiert werden
 - tatsächlich werden als trenner / und nicht \ verwendet !!!!!
+-Github Desktop deinstalliert
+
+
 
 
 # Das möchte ich lernen
