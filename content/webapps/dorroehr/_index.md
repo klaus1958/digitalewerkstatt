@@ -1,5 +1,4 @@
 ---
-title: "Rohertragsermittlung Prozent und Euro"
+title: "Private tools"
 ---
 
-mit diesem Tool lässt sich einfach der prozentuale Rohertrag ermitteln ohne großen Tippaufwand

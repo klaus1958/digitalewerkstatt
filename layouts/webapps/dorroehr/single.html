@@ -1,0 +1,40 @@
+{{ define "main" }}
+
+    <h2>{{ .Title }}</h2>
+    <div class="calculator">
+
+     <label>Einkauspreis (€): <input type="number" id="ek" step="0.01"></label>  
+     <br>
+    <label>Verkaufspreis (€): <input type="number" id="vk" step="0.01"> </label>
+    <br> 
+    <label>MwSt.-Satz (%): <input type="number" id="mwst" step="0.01" value="19"></label>
+    <br>
+    <button onclick="berechne()">Berechnen</button>
+    <p id="ergebnis"></p>
+        <script>
+            function berechne() {
+                var ek = parseFloat(document.getElementById("ek").value);
+                var vkBrutto = parseFloat(document.getElementById("vk").value);
+                var mwstSatz = parseFloat(document.getElementById("mwst").value);
+
+                if (!ek || !vkBrutto || !vkBrutto === 0 || isNaN(mwstSatz)) {
+                    document.getElementById("ergebnis").textContent = "Bitte gültige Zahlen eingeben.";
+                    return;
+                }
+
+                var vkNetto = vkBrutto /(1 + mwstSatz / 100);
+                var mwstBetrag = vkBrutto - vkNetto;
+                var rohertrag = vkNetto - ek;
+                var prozent = (rohertrag / vkNetto) * 100;
+
+                document.getElementById("ergebnis").innerText = 
+                    "Verkaufspreis netto: €" + vkNetto.toFixed(2) + 
+                    "\nMwSt.-Betrag: €" + mwstBetrag.toFixed(2) + 
+                    "\nRohertrag: €" + rohertrag.toFixed(2)+
+                    "\nProzent: €" + prozent.toFixed(2) + " %";
+            }
+        </script>
+    </div>
+   
+   
+{{ end }}
