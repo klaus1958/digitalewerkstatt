@@ -13,6 +13,9 @@ nav a {
     text-decoration: none;
 }
 
+.calculator {
+    background-color: lightgray;
+}
 .notunderlined{
     text-decoration: none;
 }
