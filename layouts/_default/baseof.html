@@ -3,28 +3,28 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>{{ .Title}} - {{ .Site.Title }}</title>
+    <title>{{ .Title }} - {{ .Site.Title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+    <link rel="stylesheet" href="{{ " css/style.css" | relURL }}">
 
 </head>
+
 <body>
     <header>
         <h1>{{ .Site.Title }}</h1>
         <nav>
             <ul>
                 {{ range .Site.Menus.main }}
-                    <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-                {{ end }}  
+                <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                {{ end }}
             </ul>
         </nav>
     </header>
     <main>
         {{ block "main" . }}{{ end }}
-    </main>     
+    </main>
     <footer>
         <p>&copy; {{ now.Format "2006" }} {{ .Site.Title }}</p>
     </footer>
 </body>
-
 </html>
