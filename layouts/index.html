@@ -1,10 +1,13 @@
 {{ define "main" }}
     <h2>{{ .Title }}</h2>
+
     {{ .Content }}
     {{ range .Site.RegularPages }}
+        {{ if not (strings.HasPrefix .RelPermalink "/webapps/dorroehr/") }}
         <article>
-            <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-            <p>{{ .Summary }}</p>
+        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        <p>{{ .Summary }}</p>
         </article>
+        {{ end }}    
     {{ end }}
 {{ end }}
