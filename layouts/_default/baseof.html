@@ -2,29 +2,18 @@
 <html lang="de">
 
 <head>
-    <meta charset="UTF-8">
-    <title>{{ .Title }} - {{ .Site.Title }}</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
-
+   {{ partial "head.html" . }} 
 </head>
 
 <body>
     <header>
-        <h1>{{ .Site.Title }}</h1>
-        <nav>
-            <ul>
-                {{ range .Site.Menus.main }}
-                <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-                {{ end }}
-            </ul>
-        </nav>
+       {{ partial "header.html" . }}
     </header>
     <main>
         {{ block "main" . }}{{ end }}
     </main>
     <footer>
-        <p>&copy; {{ now.Format "2006" }} {{ .Site.Title }}</p>
+        {{ partial "footer.html" . }}
     </footer>
 </body>
 </html>
