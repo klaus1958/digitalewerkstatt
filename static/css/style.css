@@ -1,12 +1,62 @@
+/* CSS HEX 
+--vibrant-coral: #f27059ff;
+--porcelain: #fffffcff;
+--sunflower-gold: #f3b61fff;
+--charcoal: #595959ff;
+--grey-olive: #808f85ff;
+
+CSS HSL 
+--vibrant-coral: hsla(9, 85%, 65%, 1);
+--porcelain: hsla(60, 100%, 99%, 1);
+--sunflower-gold: hsla(43, 90%, 54%, 1);
+--charcoal: hsla(0, 0%, 35%, 1);
+--grey-olive: hsla(140, 6%, 53%, 1);
+*/
+
+/*====================================================================================================================*/
+:root {
+    /*  Farben  */
+    --color-bg:#fffffcff;
+    --color-text: #595959ff;
+    --color-accent:  #f27059ff;
+    --color-accent-secondary: #f3b61fff;
+    --color-border: #808f85ff;
+
+    /*   Typografie  */
+
+   --font-base: system-ui , sans-serif;
+   --font-size-base: 1.125rem;
+   --line-height-base: 1.6;
+
+   /* Abstände ( konsistente Skala)  */
+   --space-xs: 0.5rem;
+    --space-sm: 1rem;
+    --space-md: 1.5rem;
+    --space-lg: 3rem;
+    --space-xl: 5rem;
+
+    /* sonstiges */
+    --radius: 4px;
+    --max-width: 42rem;
+}
+
+
 body{
-    background-color: #70a9b5;
+    background-color: var( --color-bg);
+    font-family: var( --font-base);
+    font-size: var( --font-size-base);
+    line-height: var( --line-height-base);
+    max-width: var( --max-width);
+    margin: 0 auto;
+    padding: var( --space-xl);
+
 }
 
 nav ul {
     list-style-type: none;
     display: flex;
     gap: 1.5rem;
-    padding: 0;
+    padding: ;
 }
 
 nav a {
