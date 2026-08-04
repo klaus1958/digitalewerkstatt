@@ -1,10 +1,10 @@
 :root {
     /*  Farben  */
-    --color-bg:#fffffcff;
+    --color-bg:#fffffc;
     --color-text: #595959ff;
-    --color-accent:  #f27059ff;
-    --color-accent-secondary: #f3b61fff;
-    --color-border: #808f85ff;
+    --color-accent:  #852f20;
+    --color-accent-secondary: #a77f19;
+    --color-border: #484f4a;
 
     /*   Typografie  */
 
@@ -27,6 +27,7 @@
 
 body{
     background-color: var( --color-bg);
+    color: var( --color-text);
     font-family: var( --font-base);
     font-size: var( --font-size-base);
     line-height: var( --line-height-base);
@@ -36,6 +37,30 @@ body{
 
 }
 
+a:link {
+  color: var( --color-accent);
+  /*background-color: transparent;*/
+  text-decoration: none;
+}
+
+a:visited {
+  color: var( --color-accent-secondary);
+  /*background-color: transparent;*/
+  text-decoration: none;
+}
+
+a:hover {
+  color: #b66d6d;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #808042;
+  background-color: transparent;
+  text-decoration: underline;
+}
+/* Navigation */
 nav ul {
     list-style-type: none;
     display: flex;
@@ -87,8 +112,23 @@ button,
 
 /* Mediaqueries*/
 
-@media (max-width: 600px) {
+@media (max-width: 799px) {
     body {
         padding: var(--space-sm);
+        
+}
+
+@media (min-width: 800px) {
+    body {
+        padding: var(--space-md);
+        
+    }
+}
+
+@media (min-width: 1200px) {
+    body {
+        padding: var(--space-lg);
+        
+
     }
 }
