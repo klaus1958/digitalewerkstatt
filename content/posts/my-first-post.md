@@ -25,4 +25,4 @@ bis auf die Webapps möchte ich die Website wie einen Blog organisieren, aber st
    - *mit den Farben bin ich noch nicht ganz zufrieden*
 
 * 22.8.26 pico.css in der min version eingebunden. Allerdings nicht ganz classless sonder momentain die class "container" genutzt die sollte normalerweise in main, aber das nutze ich scon über hugo. muss jetzt rausfinden ob main in pico irgendwelche styles hat, die gekoppekt sind oder obe ich main in hugo tausche. 
-
+* 26.8.26 /layouts/index.html evtl. anders gestalten, könnte als Start/Home/Landingpage eine ganz andere Funktion erfüllen als so eine listseite (vergl. Hugo in action S.64 letzter Absatz ff.)
