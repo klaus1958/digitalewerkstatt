@@ -1,3 +1,7 @@
 baseURL = 'https://www.klaus-zieglers.de/'
 locale = 'de-de'
 title = 'Meine Digitalwerkstatt'
+[markup]
+  [markup.goldmark]
+    [mark.goldmark.renderer]
+      unsafe = true
