@@ -5,7 +5,7 @@ title = 'Sport?'
 +++
 # Warum Sport bei mir kein Projekt ist
 
-Ich fahre seit Jahren Rad, 2-3 mal die Woche, wenn das Wetter passt, komm so auf 2000 -2500 km  – und in letzter Zeit denke ich immer öfter darüber nach, warum ich es eigentlich mache und was ich dabei bewusst *nicht* mache.
+Ich fahre seit Jahren Rad, 2-3 mal die Woche, wenn das Wetter passt, komm so auf 2000 -2500 km im Jahr  – und in letzter Zeit denke ich immer öfter darüber nach, warum ich es eigentlich mache und was ich dabei bewusst *nicht* mache.
 
 ## Sport soll gesund und fit halten, nicht zum Projekt werden
 
