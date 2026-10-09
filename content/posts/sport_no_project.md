@@ -27,4 +27,4 @@ Ich plane inzwischen auch bewusst Pausen ein – wegen der Sommerhitze etwa, ode
 
 ## Fazit
 
-Meine Sport-Philosophie lässt sich vielleicht so zusammenfassen: Bewegung soll mich gesund erhalten, nicht mein Ego bedienen. Ich will einen Rhythmus, den ich noch in zwanzig Jahren fahren kann, keinen, der mich in ein paar Jahren ausbrennt. Weniger Zahlen, weniger Vergleich, mehr einfach nur fahren.hugo server -D
+Meine Sport-Philosophie lässt sich vielleicht so zusammenfassen: Bewegung soll mich gesund erhalten, nicht mein Ego bedienen. Ich will einen Rhythmus, den ich noch in zwanzig Jahren fahren kann, keinen, der mich in ein paar Jahren ausbrennt. Weniger Zahlen, weniger Vergleich, mehr einfach nur fahren.
