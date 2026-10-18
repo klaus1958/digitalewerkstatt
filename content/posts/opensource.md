@@ -1,6 +1,6 @@
 +++
 date = '2026-08-29T21:08:23+02:00'
-draft = true
+draft = false
 title = 'Opensource ist eine Lösung'
 tags = ['Opensource','darktable','Gimp', 'digiKam', 'Scribus','Inkscape','Linux', 'Libreoffice', 'Thunderbird']
 +++

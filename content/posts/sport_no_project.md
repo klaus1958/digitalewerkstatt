@@ -1,6 +1,6 @@
 +++
 date = '2026-10-09T14:34:47+02:00'
-draft = true
+draft = false
 title = 'Warum Sport bei mir kein Projekt ist'
 +++
 
