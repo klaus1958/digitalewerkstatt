@@ -3,35 +3,52 @@
     <h2>{{ .Title }}</h2>
     <div class="calculator">
 
-     <label>Einkauspreis (€): <input type="number" id="ek" step="0.01"></label>  
-     <br>
+    <label>Einkauspreis (€): <input type="number" id="ek" step="0.01"></label>  
     <label>Verkaufspreis (€): <input type="number" id="vk" step="0.01"> </label>
-    <br> 
     <label>MwSt.-Satz (%): <input type="number" id="mwst" step="0.01" value="19"></label>
-    <br>
+
     <button onclick="berechne()">Berechnen</button>
-    <p id="ergebnis"></p>
+
+    <p id="meldung" class="hinweis" hidden></p>
+    <label>Verkaufspreis netto (€)
+      <input type="text" id="netto" readonly></label>
+      <label>MwSt.-Betrag (€)
+      <input type="text" id="mwstbetrag" readonly></label>
+      <label>Rohertrag (€)
+      <input type="text" id="rohertrag" readonly></label>
+      <label>Rohertrag (%)
+      <input type="text" id="prozent" readonly></label>
+    </label>
+
         <script>
+            function fmtZahl(zahl) {
+                return zahl.toLocaleString('de-DE', 
+                { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+            }
+
             function berechne() {
                 var ek = parseFloat(document.getElementById("ek").value);
                 var vkBrutto = parseFloat(document.getElementById("vk").value);
                 var mwstSatz = parseFloat(document.getElementById("mwst").value);
+                var meldung = document.getElementById("meldung");
 
                 if (!ek || !vkBrutto || !vkBrutto === 0 || isNaN(mwstSatz)) {
-                    document.getElementById("ergebnis").textContent = "Bitte gültige Zahlen eingeben.";
+                    meldung.textContent = "Bitte gültige Zahlen eingeben.";
+                    meldung.hidden = false;
                     return;
                 }
+
+                meldung.hidden = true;
 
                 var vkNetto = vkBrutto /(1 + mwstSatz / 100);
                 var mwstBetrag = vkBrutto - vkNetto;
                 var rohertrag = vkNetto - ek;
                 var prozent = (rohertrag / vkNetto) * 100;
 
-                    document.getElementById("ergebnis").innerText = 
-                    "Verkaufspreis netto:  €" + vkNetto.toFixed(2) + 
-                    "\nMwSt.-Betrag: €" + mwstBetrag.toFixed(2) + 
-                    "\nRohertrag: €" + rohertrag.toFixed(2)+
-                    "\nProzent: " + prozent.toFixed(2) + " %"; 
+                    document.getElementById("netto").value = fmtZahl(vkNetto);
+                    document.getElementById("mwstbetrag").value = fmtZahl(mwstBetrag);
+                    document.getElementById("rohertrag").value = fmtZahl(rohertrag);
+                    document.getElementById("prozent").value = fmtZahl(prozent);
                 
             }      
         </script>

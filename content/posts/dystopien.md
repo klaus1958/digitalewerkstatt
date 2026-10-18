@@ -4,13 +4,11 @@ draft = true
 title = 'Dystopien'
 +++
 
-## Meine persönliche Dystopie- & Thriller-Leseliste
+Eine Sammlung von Buchempfehlungen, basierend auf meinem Geschmack (Lieblinge: *Silo*, *1984*, *Der Report der Magd*, *Fahrenheit 451*, *Die Straße* sowie die Werke von *Andreas Eschbach* und *Stephen King/Richard Bachman*).  
+. . .
+<!--more-->  
 
-Eine Sammlung von Buchempfehlungen, basierend auf meinem Geschmack (Lieblinge: *Silo*, *1984*, *Der Report der Magd*, *Fahrenheit 451*, *Die Straße* sowie die Werke von *Andreas Eschbach* und *Stephen King/Richard Bachman*). 
-
----
-<!--more-->
-
+### Meine persönliche Dystopie- & Thriller-Leseliste
 ### Bereits gelesen / Gehört (Der Status Quo)
 *   **NSA – Nationales Sicherheits-Amt** (Andreas Eschbach) – *Als Hörbuch gehört; das gedruckte Buch aus der Bücherei lohnt sich für einen Re-Read wegen der intensiven Details.*
 *   **Freiheitsgeld** (Andreas Eschbach) – *Die Social-Media- und Grundeinkommen-Dystopie aus dem Jahr 2064.*

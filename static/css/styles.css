@@ -1,4 +1,4 @@
-/* werkstatt.css – schlichtes, Milligram-ähnliches Stylesheet
+/* Digitale Werkstatt.css – schlichtes, Milligram-ähnliches Stylesheet
 Grundelemente ohne Klassen, nur wenige sprechende Klassen:
 .button, .hinweis, .karte (Tourbook-Karte)
 Keine externen Schriften, keine CDN-Zugriffe. */
@@ -124,6 +124,12 @@ color: inherit;
 font: inherit;
 }
 textarea { min-height: 12rem; }
+input[readonly] {
+    background: #ece9de;
+    border-color: var(--linie);
+} 
+button { margin-top: 2.4rem; }
+
 
 /* ---------- Buttons ---------- */
 .button, button, input[type="submit"] {
