@@ -55,5 +55,5 @@ Eine Sammlung von Buchempfehlungen, basierend auf meinem Geschmack (Lieblinge: *
 ###  Meine Lese-Strategie
 1.  **Bücherei (4 + 8 Wochen Leihzeit):** Erste Anlaufstelle für dicke Wälzer (z. B. Eschbach, Elsberg).
 2.  **Tolino Vision 6:** Perfekt für E-Books (Onleihe, Urlaub, Lesen im Dunkeln mit smartLight/Dunkelmodus).
-3.  **Bücherzelle & Flohmarkt:** Für spontane Entdeckungen, Klassiker und seltene King/Bachman-Ausgaben.
+3.  **Bücherzelle & Flohmarkt:** Für spontane Entdeckungen, Klassiker(Effi Briest in Sütterlin) und seltene King/Bachman-Ausgaben.
 4.  **Kreislauf:** Was nicht behalten wird, geht zu Momox oder zurück in die Bücherzelle!
