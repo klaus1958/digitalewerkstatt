@@ -31,4 +31,6 @@ bis auf die Webapps möchte ich die Website wie einen Blog organisieren, aber st
 * 18.10.26  pico.css wird nicht mehr supported. Blades.css wäre der Nachfolger, aber classless css erscheint mir doch eher ein eher sektiererischer Ansatz zu sein. Alos hab ich das über Bord geworfen, mir von der KI eine styles.css im [**Milligramstil**](https://milligram.io/) schreiben lassen mit noch weniger Codezeilen.  
 Dieses Frameworks wird auch seit Jahren nicht mehr gepflegt, dann nehm ich lieber etwas, das ich vollständig verstanden habe und selber jederzeit gefahrlos erweitern kann.  
 * 18.10.26 und weil es so lustig war, hab ich diese Wochenende auch noch einen blick auf [**Zola**](https://www.getzola.org/). Auch ein static site generator so wie hugo, das ich aktuell verwende. Angeblich ist der code etwas sprechender, aber wenn eine Seite erstmal steht, fasse ich den Code lange nicht an und dann muss ich eh wieder nachschlagen, um zu verstehen was ich da im detail wollte. Darum so einfach wie möglich und so komplex wie nötig.
+* 19.10.26 jetz läuft meine web-entwicklungsumgebung mit hugo auch auf linux mit git
+
  
