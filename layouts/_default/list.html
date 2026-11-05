@@ -8,6 +8,21 @@
         <article>
         <hr>
             <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+            <!--Datum und Tags hinszufügen-->
+            <div class="post-meta">
+                <time>{{ .Date.Format "01.01.2006" }}</time>
+                <br>
+                {{ with .Params.tags }}
+                    <span class="post-meta-divider">
+                    <span class="post-tags">
+                        {{ range . }}
+                        <a href="{{ "tags/" | relLangURL }}{{ . | urlize }}" class="post-tag">#{{ . }}</a>
+                        {{ end }}
+                    </span>
+                    </span>
+                {{ end }}    
+            </div>
+
             <p>{{ .Summary }}</p>
             
         </article>

@@ -162,6 +162,50 @@ outline: 0.3rem solid var(--gold);
 outline-offset: 0.2rem;
 }
 
+/* Styling für die Beitrags-Metadaten auf der Übersichtsseite */
+.post-meta {
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+gap: 1.2rem;
+margin: 0.4rem 0 1.6rem 0;
+font-size: 1.4rem; /* Entspricht 14px im Milligram-System */
+color: var(--graugruen);
+}
+
+.post-date {
+font-weight: 300;
+}
+
+.post-meta-divider {
+color: var(--linie);
+}
+
+.post-tags {
+display: flex;
+flex-wrap: wrap;
+gap: 0.6rem;
+}
+
+.post-tag {
+background: #ece9de; /* Gleicher Ton wie deine Code- und Hinweis-Boxen */
+color: var(--anthrazit);
+padding: 0.2rem 0.8rem;
+border-radius: 0.3rem;
+text-decoration: none;
+font-size: 1.3rem; /* Etwas kleiner als das Datum */
+font-family: var(--schrift);
+display: inline-block;
+transition: background 0.2s ease, color 0.2s ease;
+}
+
+/* Hover-Effekt passend zu deinem Farbschema */
+.post-tag:hover {
+background: var(--korall);
+color: var(--porzellan);
+}
+
+
 /* ---------- Eigene Bausteine ---------- */
 .hinweis {
 padding: 1.2rem 1.8rem;
