@@ -71,15 +71,15 @@ Die Nubert nuWave 3 ist ein passiver 2-Wege-Kompaktlautsprecher (Bassreflex) des
 
     - Bauart: 2-Wege-Bassreflex, Regal-/Kompaktlautsprecher
     - Chassis: 1× 180-mm-Tiefmitteltöner, 1× 25-mm-Kalottenhochtöner
-• Belastbarkeit: 150 W (Nenn) / 210 W (Musik)
-• Impedanz: 4 Ohm
-• Frequenzgang: 68 – 22.000 Hz (+2/−3 dB) (Übertragungsbereich bis hinunter zu 33 Hz)
-• Wirkungsgrad: 85 dB (1 W / 1 m)
-• Abmessungen (B × H × T): 22 × 34 × 27 cm (inkl. Gitter)
-• Gewicht: 8,5 kg pro Box
-• Neupreis (1997): ca. 485 DM pro Stück
-• Besonderheit: Aufrüstbar mit dem aktiven Frequenzgang-Korrekturmodul ABL-3/30, wodurch sich der Tiefgang im Bassbereich deutlich erweitern lässt.
-• Nachfolgermodell: Nubert nuWave 35
+    - Belastbarkeit: 150 W (Nenn) / 210 W (Musik)
+    - Impedanz: 4 Ohm
+    - Frequenzgang: 68 – 22.000 Hz (+2/−3 dB) (Übertragungsbereich bis hinunter zu 33 Hz)
+    - Wirkungsgrad: 85 dB (1 W / 1 m)
+    - Abmessungen (B × H × T): 22 × 34 × 27 cm (inkl. Gitter)
+    - Gewicht: 8,5 kg pro Box
+    - Neupreis (1997): ca. 485 DM pro Stück
+    - Besonderheit: Aufrüstbar mit dem aktiven Frequenzgang-Korrekturmodul ABL-3/30, wodurch sich der Tiefgang im Bassbereich deutlich erweitern lässt.
+    - Nachfolgermodell: Nubert nuWave 35
 
 Klangeigenschaften & Aufstellung
 
