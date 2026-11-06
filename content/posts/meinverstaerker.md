@@ -1,7 +1,8 @@
 +++
 date = '2026-11-05T21:12:17+01:00'
-draft = true
+draft = false
 title = 'Mein Verstärker'
+tags = ['Hifi','Audiostreaming', 'Musik','repair']
 +++
 
 ...ist im Jahr 2026 37 Jahre alt und benötigt etwas Pflege. Auch nach dieser Zeit geniest er immer noch ein hohes Ansehen in Insiderkreisen, auch wenn er bei Weitem kein highend-Gerät darstellt.
@@ -64,7 +65,7 @@ Technische Daten
   
 - 1989-2001 trieb er meine [Seas MS 5](https://www.lautsprechershop.de/hifi/adm_ms5.htm) an. Die Musik kam anfangs von den "Überresten" der Vorgängeranlage, einer typischen 80er-Jahre Miditurmanlge im 30 cm-Format von Grundig. Den Verstärker aus dem Ensemble hatte ich damals durch den Kenwood KA-5010 ersetzt. Tuner und Kassettendeck durften bleiben. Ein Dual CS 610 Q mit einem nachgerüsteten Elacsystem der angehenden Spitzenklasse damals lt. Stereoplay.  
 CDs waren Aufgabe eines Players der ersten oder zweiden Generation. Könnte ein Nordmende CP3000 gewesen sein - noch ohne x-fach-Oversampling.
-- 2001 wurden die Seas MS5 gegen Nubert nuwave 3 mit abl 3/30 ausgetauscht.  
+- 2001 wurden die Seas MS5 gegen Nubert nuwave 3 mit [abl 3/30](https://www.nubert.de/down/c1/a6/f2/1662987856/abl-3-30-bedienungsanleitung.pdf) ausgetauscht.  
 Die Nubert nuWave 3 ist ein passiver 2-Wege-Kompaktlautsprecher (Bassreflex) des deutschen Herstellers Nubert, der etwa von 1997 bis 2003 produziert wurde.
 
   - Technische Daten
@@ -81,8 +82,17 @@ Die Nubert nuWave 3 ist ein passiver 2-Wege-Kompaktlautsprecher (Bassreflex) des
     - Besonderheit: Aufrüstbar mit dem aktiven Frequenzgang-Korrekturmodul ABL-3/30, wodurch sich der Tiefgang im Bassbereich deutlich erweitern lässt.
     - Nachfolgermodell: Nubert nuWave 35
 
-Klangeigenschaften & Aufstellung
+  - Klangeigenschaften & Aufstellung
 
-• Klang: Gilt laut Fachmagazinen (wie HiFi Test oder Rolling Stone) als sehr lebendig, präzise und für die kompakte Größe erstaunlich erwachsen im Bass.
-• Aufstellung: Erzielt das präziseste Klangbild auf ca. 70 cm hohen Stative mit etwas Wandabstand (ca. 40 cm zur Rückwand, 1 m zur Seitenwand), kann aber auch bündig im Regal betrieben werden.
+    - Klang: Gilt laut Fachmagazinen (wie HiFi Test oder Rolling Stone) als sehr lebendig, präzise und für die kompakte Größe erstaunlich erwachsen im Bass.
+    -Aufstellung: Erzielt das präziseste Klangbild auf ca. 70 cm hohen Stative mit etwas Wandabstand (ca. 40 cm zur Rückwand, 1 m zur Seitenwand), kann aber auch bündig im Regal betrieben werden.
 
+Mittlerweile hab ich alle Audio-Quellen abgeschafft und mir einen [WIIM Pro Plus](https://www.youtube.com/watch?v=812qyE-Ri2A) als "the one and only" geholt. Zusammen mit [Lossles Spotify](https://support.spotify.com/de/article/lossless-audio-quality/) macht Audiostreaming viel Spass. 
+Beim WiiM Pro Plus gibt es zwei Hauptarten von manuellen Equalizern sowie eine automatische Raumkorrektur in der WiiM Home App:
+  - Grafischer EQ (GEQ): Ein klassischer 10-Band-Equalizer mit festen Frequenzbändern und Schiebereglern sowie 24 voreingestellten Profilen.
+  - Parametrischer EQ (PEQ): Die präzisere Alternative zum grafischen EQ, mit der du bis zu 10 Bänder völlig frei anpassen kannst (Mittenfrequenz in Hz, Verstärkung/Gain in dB, Gütefaktor/Q-Faktor für die Bandbreite und Filtertypen wie Peak, Low-Shelf oder High-Shelf).
+  - Raumkorrektur (Room Correction): Eine automatische Funktion, die den Frequenzgang des Raumes über das Mikrofon deines Smartphones einmisst
+Mit dem PEQ kann ich die Wirkung des ABL 3/30 fast identisch nachbauen. 
+
+Im Vergleich zu früher hab ich jetzt ein super minimalistisches Setup - wenn da nicht die kratzenden Regler (Balance und Volume) wären. Aber es gibt einige tolle Anleitungen im Internet, mit denen sich das Problem kostengünstig beheben lässt. Ich bin gespannt.  
+Ein Neukauf eines Verstärkes hat sich damit hoffentlich erstmal erledigt - und ich hab wieder was dazu gelernt **und** Geld gespart. Gnaz zu Schweigen vom gesparten Elektromüll.
